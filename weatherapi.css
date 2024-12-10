@@ -6,6 +6,20 @@
     outline: none;
     font-family: sans-serif;
 }
+
+/* weatherapi.css */
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/illustration-weather-forecast_53876-20623.jpg?t=st=1733817269~exp=1733820869~hmac=0d66182a72b4ad43693508ea306896ff777d92fda92e7e388ea5f3602a916fe3&w=1380');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    height: 100vh; 
+    /* opacity: 50%; */
+  }
+  
+
 body{
     min-height: 100vh;
     display: flex;
@@ -19,6 +33,7 @@ body{
     background-color: white;
     border-radius: 12px;
     padding: 28px;
+    /* box-shadow: 15px 15px 25px solid rgb(197, 139, 14); */
 }
 .search-box{
     width: 100%;
@@ -26,6 +41,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-bottom: 500px; */
+    /* padding bottom:900px; */
 }
 .search-box input{
     width: 84%;
